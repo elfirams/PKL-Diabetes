@@ -11,10 +11,10 @@ st.subheader('Periksa dan Pantau Status Diabetes Anda')
 with st.sidebar:
     st.title('Gluco Checker 🔍')
     st.header('Table of Contents')
-    st.page_link("http://localhost:8502/#3ad77e99", label="Apa itu Diabetes?", icon="🔗")
-    st.page_link("http://localhost:8502/#tipe-tipe-diabetes", label="Tipe - Tipe Diabetes", icon="🔗")
-    st.page_link("http://localhost:8502/#7c400abf", label="Jenis - Jenis Tes Diabetes", icon="🔗")
-    st.page_link("http://localhost:8502/#f07c1f44", label="Seberapa Penting Periksa Diabetes?", icon="🔗")
+    st.page_link("https://pkl-diabetes-dyda9xnupeh2utcsxtajcs.streamlit.app/~/+/#3ad77e99", label="Apa itu Diabetes?", icon="🔗")
+    st.page_link("https://pkl-diabetes-dyda9xnupeh2utcsxtajcs.streamlit.app/~/+/#tipe-tipe-diabetes", label="Tipe - Tipe Diabetes", icon="🔗")
+    st.page_link("https://pkl-diabetes-dyda9xnupeh2utcsxtajcs.streamlit.app/~/+/#7c400abf", label="Jenis - Jenis Tes Diabetes", icon="🔗")
+    st.page_link("https://pkl-diabetes-dyda9xnupeh2utcsxtajcs.streamlit.app/~/+/#f07c1f44", label="Seberapa Penting Periksa Diabetes?", icon="🔗")
    
 tab1, tab2 = st.tabs(["Tentang Diabetes", "Periksakan Diabetesmu!"])
 
