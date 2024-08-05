@@ -155,6 +155,8 @@ with tab2:
     usia_tahun = st.radio("Inputkan data usia berdasarkan pilihan yang ada", ["Di bawah 45", "45 tahun ke atas"])
     gender = st.radio("Inputkan data jenis kelamin berdasarkan pilihan yang ada", options=["L", "P"])
     imt = st.selectbox("Inputkan data IMT berdasarkan pilihan yang ada",["< 18.5", "18.5 - 25.0", "> 25.0"])
+    with st.expander("Cara menghitung IMT"):
+        st.image("Indeks Massa Tubuh.jpg")
     glukosa_puasa = st.number_input("Glukosa Puasa (mg/dL)", min_value=0)
     glukosa_2jampp = st.number_input("Glukosa 2 Jam PP (mg/dL)", min_value=0)
     hba1c = st.number_input("HbA1C (%)", min_value=0.0, max_value=20.0)
