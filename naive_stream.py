@@ -185,6 +185,7 @@ with tab2:
         if y_pred == 'Diabetes':
             st.markdown(
                 '''
+            Rekomendasi Kegiatan:
             🚫 Kurangi Minuman Manis
             🥗 Ganti Sumber Karbohidrat
             🍛 Perhatikan Porsi Makan
@@ -200,6 +201,7 @@ with tab2:
         else:
             st.markdown(
                 '''
+            Rekomendasi Kegiatan: 
             🏃🏽 Rutin Olahraga
             💧 Rajin Minum Air Putih
             🥗 Menerapkan Pola Makan Sehat
