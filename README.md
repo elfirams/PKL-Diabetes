@@ -4,7 +4,7 @@
 
 ## Setup environment
 ```
-conda create --name main-ds python=3.11
+conda create --name main-ds python=3.12
 conda activate main-ds
 pip install numpy pandas streamlit pickle re scikit-learn
 ```
