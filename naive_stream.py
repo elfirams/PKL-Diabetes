@@ -162,7 +162,7 @@ with tab2:
     hba1c = st.number_input("HbA1C (%)", min_value=0.0, max_value=20.0)
 
     # Panggil Model
-    model = pickle.load(open(r"naive_bayes_model.pkl", "rb"))
+    model = pickle.load(open(r"nb1_model.pkl", "rb"))
 
     if st.button("Submit"):
     # Mengumpulkan input data ke dalam list
