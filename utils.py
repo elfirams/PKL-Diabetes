@@ -7,5 +7,5 @@ import sklearn
 
 @st.cache(ttl=12500, allow_output_mutation=True)
 def load_model():
-    model = pickle.load(open(r"C:\Users\HP\Documents\PKL\nb_diabetes\naive_bayes_model.pkl", "rb"))
+    model = pickle.load(open(r"C:\Users\HP\Documents\PKL\nb_diabetes\nb1_model.pkl", "rb"))
     return model
